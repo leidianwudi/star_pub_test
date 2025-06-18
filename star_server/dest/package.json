@@ -1,0 +1,49 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev:server1": "cross-env server_name=game-server-1 tsrpc-cli dev --entry src/ServerLauncher.ts",
+    "dev:server2": "cross-env server_name=game-server-2 tsrpc-cli dev --entry src/ServerLauncher.ts",
+    "dist:server1": "node ./ServerLauncher.js --server_name=game-server-1",
+    "dist:server2": "node ./ServerLauncher.js --server_name=game-server-2",
+    "tsrpc-build": "tsrpc-cli build",
+    "doc": "tsrpc-cli doc",
+    "test": "mocha  --require ts-node/register --file ./src/test/setup_db.ts src/test/**/*.test.ts",
+    "typeorm": "typeorm-ts-node-commonjs",
+    "server": "pm2-runtime start ecosystem.config.js",
+    "start": "pm2 start ecosystem.config.js",
+    "restart": "pm2 restart all ecosystem.config.js",
+    "kill": "pm2 kill"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/mocha": "^8.2.3",
+    "@types/node": "^20.3.1",
+    "@types/uuid": "^8.3.4",
+    "console-stamp": "^3.1.2",
+    "cross-env": "^7.0.3",
+    "mocha": "^9.2.2",
+    "onchange": "^7.1.0",
+    "ts-node": "^10.9.2",
+    "tsrpc-cli": "^2.4.5",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "async-mutex": "^0.5.0",
+    "bignumber.js": "^9.1.2",
+    "csv": "^6.3.11",
+    "ioredis": "^5.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.0",
+    "mysql2": "^3.12.0",
+    "pm2": "^5.4.3",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "tsrpc": "^3.4.16",
+    "typeorm": "0.3.20",
+    "uuid": "^8.3.2",
+    "winston": "^3.17.0"
+  }
+}
