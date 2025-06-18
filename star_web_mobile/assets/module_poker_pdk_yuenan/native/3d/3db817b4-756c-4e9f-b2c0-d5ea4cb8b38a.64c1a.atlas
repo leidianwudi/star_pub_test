@@ -1,0 +1,209 @@
+
+CHAR_Aqualea.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 485, 582
+  size: 385, 434
+  orig: 385, 434
+  offset: 0, 0
+  index: -1
+eye_shine
+  rotate: true
+  xy: 207, 103
+  size: 171, 64
+  orig: 171, 64
+  offset: 0, 0
+  index: -1
+eyebrow_left
+  rotate: false
+  xy: 850, 34
+  size: 157, 117
+  orig: 157, 117
+  offset: 0, 0
+  index: -1
+eyebrow_right
+  rotate: true
+  xy: 880, 449
+  size: 131, 121
+  orig: 131, 121
+  offset: 0, 0
+  index: -1
+eyelash_left
+  rotate: false
+  xy: 972, 717
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+eyelash_right
+  rotate: false
+  xy: 972, 685
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1
+eyelid_left_down
+  rotate: false
+  xy: 959, 176
+  size: 56, 30
+  orig: 56, 30
+  offset: 0, 0
+  index: -1
+eyelid_left_up
+  rotate: true
+  xy: 959, 314
+  size: 59, 53
+  orig: 59, 53
+  offset: 0, 0
+  index: -1
+eyelid_right_down
+  rotate: false
+  xy: 429, 590
+  size: 54, 40
+  orig: 54, 41
+  offset: 0, 0
+  index: -1
+eyelid_right_up
+  rotate: true
+  xy: 959, 256
+  size: 56, 51
+  orig: 56, 51
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 579, 186
+  size: 176, 68
+  orig: 176, 68
+  offset: 0, 0
+  index: -1
+hair_back
+  rotate: true
+  xy: 2, 276
+  size: 480, 273
+  orig: 480, 273
+  offset: 0, 0
+  index: -1
+hair_front
+  rotate: false
+  xy: 2, 758
+  size: 481, 258
+  orig: 481, 258
+  offset: 0, 0
+  index: -1
+hand_back
+  rotate: true
+  xy: 277, 358
+  size: 398, 150
+  orig: 398, 150
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: true
+  xy: 429, 174
+  size: 188, 148
+  orig: 189, 148
+  offset: 0, 0
+  index: -1
+hand_right
+  rotate: true
+  xy: 713, 149
+  size: 223, 135
+  orig: 225, 136
+  offset: 0, 1
+  index: -1
+head
+  rotate: true
+  xy: 429, 364
+  size: 216, 282
+  orig: 217, 283
+  offset: 0, 0
+  index: -1
+horn_down_left
+  rotate: true
+  xy: 2, 95
+  size: 179, 113
+  orig: 179, 114
+  offset: 0, 0
+  index: -1
+horn_down_right
+  rotate: false
+  xy: 679, 30
+  size: 144, 117
+  orig: 145, 117
+  offset: 1, 0
+  index: -1
+horn_up_left
+  rotate: true
+  xy: 880, 375
+  size: 72, 124
+  orig: 72, 125
+  offset: 0, 1
+  index: -1
+horn_up_right
+  rotate: false
+  xy: 429, 632
+  size: 54, 124
+  orig: 55, 125
+  offset: 1, 0
+  index: -1
+neck_back
+  rotate: true
+  xy: 872, 582
+  size: 166, 98
+  orig: 167, 98
+  offset: 0, 0
+  index: -1
+neck_front
+  rotate: true
+  xy: 850, 153
+  size: 219, 107
+  orig: 219, 108
+  offset: 0, 1
+  index: -1
+pupil
+  rotate: false
+  xy: 959, 208
+  size: 39, 46
+  orig: 39, 47
+  offset: 0, 1
+  index: -1
+skirt_down_back
+  rotate: true
+  xy: 872, 750
+  size: 266, 141
+  orig: 266, 141
+  offset: 0, 0
+  index: -1
+skirt_down_front
+  rotate: true
+  xy: 713, 374
+  size: 206, 165
+  orig: 207, 165
+  offset: 0, 0
+  index: -1
+skirt_up_back
+  rotate: true
+  xy: 117, 142
+  size: 132, 88
+  orig: 132, 88
+  offset: 0, 0
+  index: -1
+skirt_up_front
+  rotate: true
+  xy: 277, 209
+  size: 147, 119
+  orig: 147, 121
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 579, 2
+  size: 182, 98
+  orig: 183, 98
+  offset: 1, 0
+  index: -1

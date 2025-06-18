@@ -1,0 +1,48 @@
+
+h_heel.png
+size: 630,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_glow
+  rotate: false
+  xy: 2, 4
+  size: 136, 126
+  orig: 136, 128
+  offset: 0, 2
+  index: -1
+double_frame
+  rotate: false
+  xy: 140, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fx_glow
+  rotate: false
+  xy: 515, 61
+  size: 113, 69
+  orig: 118, 74
+  offset: 2, 1
+  index: -1
+fx_shine
+  rotate: false
+  xy: 515, 14
+  size: 41, 45
+  orig: 42, 46
+  offset: 0, 1
+  index: -1
+heel
+  rotate: false
+  xy: 395, 14
+  size: 118, 116
+  orig: 118, 116
+  offset: 0, 0
+  index: -1
+single_frame
+  rotate: false
+  xy: 270, 7
+  size: 123, 123
+  orig: 123, 123
+  offset: 0, 0
+  index: -1

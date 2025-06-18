@@ -1,0 +1,355 @@
+
+s_wild.png
+size: 1825,584
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_single-frame
+  rotate: false
+  xy: 353, 251
+  size: 333, 331
+  orig: 333, 331
+  offset: 0, 0
+  index: -1
+_single_bg
+  rotate: false
+  xy: 688, 322
+  size: 263, 260
+  orig: 263, 260
+  offset: 0, 0
+  index: -1
+double_bg
+  rotate: false
+  xy: 953, 322
+  size: 263, 260
+  orig: 263, 260
+  offset: 0, 0
+  index: -1
+doubleframe
+  rotate: false
+  xy: 2, 236
+  size: 349, 346
+  orig: 349, 346
+  offset: 0, 0
+  index: -1
+earring_l
+  rotate: false
+  xy: 1202, 274
+  size: 14, 46
+  orig: 14, 46
+  offset: 0, 0
+  index: -1
+earring_r
+  rotate: false
+  xy: 1202, 230
+  size: 14, 42
+  orig: 14, 42
+  offset: 0, 0
+  index: -1
+fx_bframe_01
+  rotate: false
+  xy: 1218, 340
+  size: 244, 242
+  orig: 244, 242
+  offset: 0, 0
+  index: -1
+fx_bframe_02
+  rotate: false
+  xy: 1464, 340
+  size: 244, 242
+  orig: 244, 242
+  offset: 0, 0
+  index: -1
+fx_bframe_03
+  rotate: false
+  xy: 474, 7
+  size: 244, 242
+  orig: 244, 242
+  offset: 0, 0
+  index: -1
+fx_bframe_04
+  rotate: false
+  xy: 720, 78
+  size: 244, 242
+  orig: 244, 242
+  offset: 0, 0
+  index: -1
+fx_sframe_01
+  rotate: false
+  xy: 2, 2
+  size: 234, 232
+  orig: 234, 232
+  offset: 0, 0
+  index: -1
+fx_sframe_02
+  rotate: false
+  xy: 238, 2
+  size: 234, 232
+  orig: 234, 232
+  offset: 0, 0
+  index: -1
+fx_sframe_03
+  rotate: false
+  xy: 966, 88
+  size: 234, 232
+  orig: 234, 232
+  offset: 0, 0
+  index: -1
+fx_sframe_04
+  rotate: false
+  xy: 1218, 106
+  size: 234, 232
+  orig: 234, 232
+  offset: 0, 0
+  index: -1
+fx_shine
+  rotate: false
+  xy: 1710, 486
+  size: 89, 96
+  orig: 89, 96
+  offset: 0, 0
+  index: -1
+girl_acc_l
+  rotate: false
+  xy: 1678, 38
+  size: 13, 38
+  orig: 13, 38
+  offset: 0, 0
+  index: -1
+girl_acc_r
+  rotate: false
+  xy: 688, 272
+  size: 18, 48
+  orig: 18, 48
+  offset: 0, 0
+  index: -1
+girl_body
+  rotate: false
+  xy: 1678, 186
+  size: 145, 152
+  orig: 145, 152
+  offset: 0, 0
+  index: -1
+girl_hairback
+  rotate: false
+  xy: 688, 251
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+girl_veil_base
+  rotate: false
+  xy: 1710, 422
+  size: 97, 62
+  orig: 97, 62
+  offset: 0, 0
+  index: -1
+girl_veil_l
+  rotate: false
+  xy: 1036, 17
+  size: 36, 69
+  orig: 36, 69
+  offset: 0, 0
+  index: -1
+girl_veil_r
+  rotate: false
+  xy: 1406, 32
+  size: 41, 72
+  orig: 41, 72
+  offset: 0, 0
+  index: -1
+girl_veilback
+  rotate: false
+  xy: 863, 15
+  size: 104, 61
+  orig: 104, 61
+  offset: 0, 0
+  index: -1
+guy_body
+  rotate: false
+  xy: 1454, 189
+  size: 222, 149
+  orig: 222, 149
+  offset: 0, 0
+  index: -1
+guy_bodyx
+  rotate: false
+  xy: 1454, 38
+  size: 222, 149
+  orig: 222, 149
+  offset: 0, 0
+  index: -1
+guy_headdress_l
+  rotate: false
+  xy: 1710, 365
+  size: 67, 55
+  orig: 67, 55
+  offset: 0, 0
+  index: -1
+guy_headdress_r
+  rotate: false
+  xy: 969, 32
+  size: 65, 54
+  orig: 65, 54
+  offset: 0, 0
+  index: -1
+wild_text_zh
+  rotate: false
+  xy: 1202, 9
+  size: 202, 95
+  orig: 202, 95
+  offset: 0, 0
+  index: -1
+wild_text_zh_border
+  rotate: false
+  xy: 720, 10
+  size: 141, 66
+  orig: 141, 66
+  offset: 0, 0
+  index: -1
+wild_text_zh_zoom
+  rotate: false
+  xy: 1678, 78
+  size: 132, 54
+  orig: 132, 54
+  offset: 0, 0
+  index: -1
+wild_text_zh_zoom2
+  rotate: false
+  xy: 1678, 134
+  size: 138, 50
+  orig: 138, 50
+  offset: 0, 0
+  index: -1
+
+s_wild2.png
+size: 207,157
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_opt/girl_eye_blink2_l
+  rotate: false
+  xy: 185, 118
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+_opt/girl_eye_blink2_r
+  rotate: false
+  xy: 151, 2
+  size: 18, 8
+  orig: 18, 8
+  offset: 0, 0
+  index: -1
+_opt/girl_eye_blink_l
+  rotate: false
+  xy: 185, 110
+  size: 17, 6
+  orig: 17, 6
+  offset: 0, 0
+  index: -1
+_opt/girl_eye_blink_r
+  rotate: false
+  xy: 185, 102
+  size: 17, 6
+  orig: 17, 6
+  offset: 0, 0
+  index: -1
+_opt/girl_eye_l
+  rotate: false
+  xy: 185, 129
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+_opt/girl_eye_r
+  rotate: false
+  xy: 185, 143
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+_opt/girl_head
+  rotate: false
+  xy: 120, 90
+  size: 63, 65
+  orig: 63, 65
+  offset: 0, 0
+  index: -1
+_opt/girl_mouth
+  rotate: false
+  xy: 158, 56
+  size: 26, 12
+  orig: 26, 12
+  offset: 0, 0
+  index: -1
+_opt/girl_mouth_smile
+  rotate: false
+  xy: 158, 42
+  size: 26, 12
+  orig: 26, 12
+  offset: 0, 0
+  index: -1
+_opt/guy_eye_blink2_l
+  rotate: false
+  xy: 120, 31
+  size: 29, 18
+  orig: 29, 18
+  offset: 0, 0
+  index: -1
+_opt/guy_eye_blink2_r
+  rotate: false
+  xy: 151, 27
+  size: 24, 13
+  orig: 24, 13
+  offset: 0, 0
+  index: -1
+_opt/guy_eye_blink_l
+  rotate: false
+  xy: 120, 11
+  size: 29, 18
+  orig: 29, 18
+  offset: 0, 0
+  index: -1
+_opt/guy_eye_blink_r
+  rotate: false
+  xy: 151, 12
+  size: 24, 13
+  orig: 24, 13
+  offset: 0, 0
+  index: -1
+_opt/guy_eye_l
+  rotate: false
+  xy: 158, 70
+  size: 29, 18
+  orig: 29, 18
+  offset: 0, 0
+  index: -1
+_opt/guy_eye_r
+  rotate: false
+  xy: 177, 27
+  size: 24, 13
+  orig: 24, 13
+  offset: 0, 0
+  index: -1
+_opt/guy_face
+  rotate: false
+  xy: 2, 4
+  size: 116, 151
+  orig: 116, 151
+  offset: 0, 0
+  index: -1
+_opt/guy_mouth
+  rotate: false
+  xy: 120, 51
+  size: 36, 17
+  orig: 36, 17
+  offset: 0, 0
+  index: -1
+_opt/guy_mouth_smile
+  rotate: false
+  xy: 120, 70
+  size: 36, 18
+  orig: 36, 18
+  offset: 0, 0
+  index: -1

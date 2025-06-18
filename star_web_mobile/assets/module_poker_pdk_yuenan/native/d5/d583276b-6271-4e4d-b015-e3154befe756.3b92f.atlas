@@ -1,0 +1,139 @@
+
+CHAR_Croki_Water_Evo3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boca_delante
+  rotate: true
+  xy: 310, 1248
+  size: 255, 237
+  orig: 255, 238
+  offset: 0, 1
+  index: -1
+boca_detras
+  rotate: true
+  xy: 310, 1001
+  size: 245, 237
+  orig: 245, 238
+  offset: 0, 1
+  index: -1
+brazo_der
+  rotate: true
+  xy: 308, 8
+  size: 204, 260
+  orig: 206, 261
+  offset: 1, 1
+  index: -1
+brazo_izq
+  rotate: true
+  xy: 357, 332
+  size: 269, 257
+  orig: 271, 260
+  offset: 2, 1
+  index: -1
+cabeza
+  rotate: false
+  xy: 2, 2
+  size: 304, 210
+  orig: 355, 247
+  offset: 46, 13
+  index: -1
+cola
+  rotate: false
+  xy: 2, 1505
+  size: 403, 536
+  orig: 430, 536
+  offset: 0, 0
+  index: -1
+cresta_delante
+  rotate: false
+  xy: 2, 594
+  size: 117, 390
+  orig: 118, 390
+  offset: 1, 0
+  index: -1
+cresta_detras
+  rotate: false
+  xy: 2, 214
+  size: 353, 378
+  orig: 353, 380
+  offset: 0, 1
+  index: -1
+cuerpo
+  rotate: true
+  xy: 2, 986
+  size: 517, 306
+  orig: 584, 309
+  offset: 26, 2
+  index: -1
+lengua
+  rotate: true
+  xy: 358, 837
+  size: 162, 110
+  orig: 162, 110
+  offset: 0, 0
+  index: -1
+nariz
+  rotate: false
+  xy: 570, 26
+  size: 178, 188
+  orig: 178, 188
+  offset: 0, 0
+  index: -1
+ojo_brillo
+  rotate: true
+  xy: 357, 216
+  size: 114, 117
+  orig: 114, 117
+  offset: 0, 0
+  index: -1
+ojo_der
+  rotate: false
+  xy: 595, 219
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+ojo_izq
+  rotate: true
+  xy: 476, 216
+  size: 114, 117
+  orig: 114, 117
+  offset: 0, 0
+  index: -1
+parpado_der
+  rotate: true
+  xy: 121, 596
+  size: 106, 101
+  orig: 106, 102
+  offset: 0, 0
+  index: -1
+parpado_izq_abajo
+  rotate: true
+  xy: 224, 602
+  size: 100, 71
+  orig: 101, 72
+  offset: 0, 0
+  index: -1
+parpado_izq_arriba
+  rotate: false
+  xy: 297, 603
+  size: 144, 99
+  orig: 145, 100
+  offset: 1, 0
+  index: -1
+pierna_der
+  rotate: true
+  xy: 121, 704
+  size: 280, 235
+  orig: 282, 236
+  offset: 0, 1
+  index: -1
+pupila
+  rotate: false
+  xy: 358, 776
+  size: 33, 59
+  orig: 35, 60
+  offset: 1, 0
+  index: -1

@@ -1,0 +1,202 @@
+
+CHAR_Bekhou.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BLeg_L
+  rotate: false
+  xy: 157, 158
+  size: 107, 252
+  orig: 160, 260
+  offset: 0, 8
+  index: -1
+BLeg_R
+  rotate: false
+  xy: 268, 792
+  size: 166, 230
+  orig: 166, 230
+  offset: 0, 0
+  index: -1
+BToe_L
+  rotate: false
+  xy: 332, 453
+  size: 57, 57
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+BToe_L1
+  rotate: false
+  xy: 396, 733
+  size: 55, 57
+  orig: 55, 60
+  offset: 0, 3
+  index: -1
+Body
+  rotate: false
+  xy: 2, 702
+  size: 264, 320
+  orig: 264, 320
+  offset: 0, 0
+  index: -1
+Brown_L
+  rotate: false
+  xy: 408, 34
+  size: 92, 129
+  orig: 92, 129
+  offset: 0, 0
+  index: -1
+Brown_R
+  rotate: true
+  xy: 453, 758
+  size: 55, 128
+  orig: 55, 128
+  offset: 0, 0
+  index: -1
+DownEyeClose
+  rotate: true
+  xy: 391, 467
+  size: 43, 40
+  orig: 43, 51
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: true
+  xy: 220, 412
+  size: 36, 33
+  orig: 48, 48
+  offset: 1, 10
+  index: -1
+EyeHilight
+  rotate: false
+  xy: 57, 2
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+FLeg_L
+  rotate: false
+  xy: 266, 214
+  size: 116, 234
+  orig: 116, 234
+  offset: 0, 0
+  index: -1
+FLeg_R
+  rotate: false
+  xy: 220, 450
+  size: 110, 250
+  orig: 164, 253
+  offset: 54, 3
+  index: -1
+FToe_L
+  rotate: true
+  xy: 363, 165
+  size: 47, 64
+  orig: 48, 65
+  offset: 0, 1
+  index: -1
+FToe_L1
+  rotate: false
+  xy: 57, 15
+  size: 50, 65
+  orig: 50, 65
+  offset: 0, 0
+  index: -1
+FToe_R
+  rotate: true
+  xy: 109, 16
+  size: 64, 59
+  orig: 66, 60
+  offset: 2, 0
+  index: -1
+FToe_R1
+  rotate: true
+  xy: 2, 12
+  size: 68, 53
+  orig: 68, 55
+  offset: 0, 1
+  index: -1
+Hair_Bot
+  rotate: false
+  xy: 170, 6
+  size: 58, 150
+  orig: 68, 161
+  offset: 10, 0
+  index: -1
+Hair_Top
+  rotate: false
+  xy: 332, 512
+  size: 185, 214
+  orig: 185, 214
+  offset: 0, 0
+  index: -1
+InEye
+  rotate: false
+  xy: 266, 164
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+Jaw
+  rotate: false
+  xy: 268, 728
+  size: 126, 62
+  orig: 135, 62
+  offset: 9, 0
+  index: -1
+Mouth
+  rotate: true
+  xy: 487, 345
+  size: 165, 109
+  orig: 165, 109
+  offset: 0, 0
+  index: -1
+Tail1_L
+  rotate: false
+  xy: 2, 82
+  size: 153, 299
+  orig: 170, 316
+  offset: 0, 17
+  index: -1
+Tail1_R
+  rotate: false
+  xy: 99, 412
+  size: 119, 288
+  orig: 306, 360
+  offset: 6, 14
+  index: -1
+Tail2_L
+  rotate: true
+  xy: 436, 815
+  size: 207, 188
+  orig: 375, 368
+  offset: 168, 0
+  index: -1
+Tail2_R
+  rotate: true
+  xy: 230, 9
+  size: 147, 176
+  orig: 287, 365
+  offset: 0, 0
+  index: -1
+Tail_C
+  rotate: false
+  xy: 2, 383
+  size: 95, 317
+  orig: 95, 317
+  offset: 0, 0
+  index: -1
+TailsF
+  rotate: true
+  xy: 384, 274
+  size: 177, 101
+  orig: 177, 101
+  offset: 0, 0
+  index: -1
+UpEyeClose
+  rotate: true
+  xy: 316, 164
+  size: 48, 45
+  orig: 48, 45
+  offset: 0, 0
+  index: -1

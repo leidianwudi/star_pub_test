@@ -1,0 +1,41 @@
+
+spubo.png
+size: 733,178
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B
+  rotate: false
+  xy: 324, 4
+  size: 136, 172
+  orig: 136, 172
+  offset: 0, 0
+  index: -1
+O
+  rotate: false
+  xy: 2, 2
+  size: 166, 174
+  orig: 166, 174
+  offset: 0, 0
+  index: -1
+P
+  rotate: false
+  xy: 597, 4
+  size: 134, 172
+  orig: 134, 172
+  offset: 0, 0
+  index: -1
+S
+  rotate: false
+  xy: 462, 2
+  size: 133, 174
+  orig: 133, 174
+  offset: 0, 0
+  index: -1
+U
+  rotate: false
+  xy: 170, 3
+  size: 152, 173
+  orig: 152, 173
+  offset: 0, 0
+  index: -1

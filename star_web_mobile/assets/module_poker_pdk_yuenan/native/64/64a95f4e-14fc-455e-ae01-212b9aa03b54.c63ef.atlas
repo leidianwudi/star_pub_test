@@ -1,0 +1,258 @@
+
+CHAR_Coraluga.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1_left
+  rotate: false
+  xy: 2, 482
+  size: 193, 124
+  orig: 193, 124
+  offset: 0, 0
+  index: -1
+arm1_right
+  rotate: false
+  xy: 333, 321
+  size: 141, 110
+  orig: 141, 110
+  offset: 0, 0
+  index: -1
+arm2_left
+  rotate: false
+  xy: 2, 127
+  size: 159, 175
+  orig: 167, 177
+  offset: 7, 0
+  index: -1
+arm2_right
+  rotate: false
+  xy: 230, 140
+  size: 165, 170
+  orig: 168, 171
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 511, 590
+  size: 432, 472
+  orig: 434, 472
+  offset: 2, 0
+  index: -1
+eye
+  rotate: false
+  xy: 606, 334
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+eye_shine
+  rotate: false
+  xy: 709, 336
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+eyelid_left_down
+  rotate: true
+  xy: 216, 13
+  size: 113, 52
+  orig: 113, 52
+  offset: 0, 0
+  index: -1
+eyelid_left_up
+  rotate: true
+  xy: 123, 6
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+eyelid_right_down
+  rotate: true
+  xy: 271, 320
+  size: 111, 60
+  orig: 111, 60
+  offset: 0, 0
+  index: -1
+eyelid_right_up
+  rotate: true
+  xy: 186, 312
+  size: 115, 83
+  orig: 115, 83
+  offset: 0, 0
+  index: -1
+h10
+  rotate: false
+  xy: 257, 516
+  size: 250, 243
+  orig: 250, 243
+  offset: 0, 0
+  index: -1
+h11_left
+  rotate: true
+  xy: 872, 531
+  size: 57, 137
+  orig: 57, 137
+  offset: 0, 0
+  index: -1
+h11_right
+  rotate: true
+  xy: 476, 331
+  size: 103, 128
+  orig: 103, 129
+  offset: 0, 0
+  index: -1
+h12_left
+  rotate: true
+  xy: 408, 436
+  size: 78, 157
+  orig: 79, 157
+  offset: 1, 0
+  index: -1
+h12_right
+  rotate: false
+  xy: 650, 169
+  size: 65, 163
+  orig: 66, 163
+  offset: 1, 0
+  index: -1
+h13
+  rotate: false
+  xy: 163, 128
+  size: 65, 174
+  orig: 65, 175
+  offset: 0, 1
+  index: -1
+h1_left
+  rotate: false
+  xy: 270, 2
+  size: 72, 136
+  orig: 72, 138
+  offset: 0, 1
+  index: -1
+h1_right
+  rotate: false
+  xy: 778, 194
+  size: 92, 140
+  orig: 93, 140
+  offset: 1, 0
+  index: -1
+h2_left
+  rotate: false
+  xy: 493, 165
+  size: 88, 164
+  orig: 90, 164
+  offset: 1, 0
+  index: -1
+h2_right
+  rotate: false
+  xy: 583, 165
+  size: 65, 164
+  orig: 65, 165
+  offset: 0, 1
+  index: -1
+h3_left
+  rotate: false
+  xy: 2, 304
+  size: 182, 176
+  orig: 183, 176
+  offset: 1, 0
+  index: -1
+h5_left
+  rotate: false
+  xy: 256, 433
+  size: 150, 81
+  orig: 151, 81
+  offset: 1, 0
+  index: -1
+h7_right
+  rotate: true
+  xy: 2, 608
+  size: 151, 253
+  orig: 151, 253
+  offset: 0, 0
+  index: -1
+h8_left
+  rotate: false
+  xy: 717, 188
+  size: 59, 146
+  orig: 59, 146
+  offset: 0, 0
+  index: -1
+h8_right
+  rotate: false
+  xy: 585, 437
+  size: 102, 151
+  orig: 102, 151
+  offset: 0, 0
+  index: -1
+h9_left
+  rotate: false
+  xy: 634, 8
+  size: 57, 155
+  orig: 57, 155
+  offset: 0, 0
+  index: -1
+h_left
+  rotate: false
+  xy: 397, 149
+  size: 94, 170
+  orig: 94, 170
+  offset: 0, 0
+  index: -1
+h_right
+  rotate: false
+  xy: 197, 429
+  size: 57, 177
+  orig: 57, 177
+  offset: 0, 0
+  index: -1
+horn
+  rotate: false
+  xy: 2, 761
+  size: 507, 261
+  orig: 507, 261
+  offset: 0, 0
+  index: -1
+leg1_left
+  rotate: true
+  xy: 344, 6
+  size: 132, 148
+  orig: 137, 152
+  offset: 4, 0
+  index: -1
+leg1_right
+  rotate: true
+  xy: 693, 20
+  size: 147, 137
+  orig: 148, 137
+  offset: 0, 0
+  index: -1
+leg2_left
+  rotate: false
+  xy: 689, 439
+  size: 142, 149
+  orig: 146, 156
+  offset: 4, 0
+  index: -1
+leg2_right
+  rotate: false
+  xy: 2, 2
+  size: 119, 123
+  orig: 121, 123
+  offset: 1, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 494, 7
+  size: 138, 156
+  orig: 138, 156
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 509, 516
+  size: 74, 72
+  orig: 74, 72
+  offset: 0, 0
+  index: -1

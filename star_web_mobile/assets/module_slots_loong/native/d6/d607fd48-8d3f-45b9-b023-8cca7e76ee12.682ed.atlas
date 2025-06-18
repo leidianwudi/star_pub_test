@@ -1,0 +1,125 @@
+
+jiesuan_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 432, 145
+  size: 169, 110
+  orig: 182, 110
+  offset: 13, 0
+  index: -1
+10
+  rotate: false
+  xy: 775, 453
+  size: 157, 292
+  orig: 170, 292
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 424, 621
+  size: 350, 394
+  orig: 376, 394
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 775, 746
+  size: 178, 269
+  orig: 193, 269
+  offset: 15, 0
+  index: -1
+13
+  rotate: false
+  xy: 933, 614
+  size: 82, 131
+  orig: 82, 131
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 609, 474
+  size: 119, 146
+  orig: 129, 157
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 1, 52
+  size: 430, 203
+  orig: 430, 203
+  offset: 0, 0
+  index: -1
+16
+  rotate: false
+  xy: 1, 348
+  size: 421, 245
+  orig: 421, 245
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 609, 171
+  size: 374, 281
+  orig: 374, 281
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 602, 72
+  size: 158, 98
+  orig: 158, 104
+  offset: 0, 6
+  index: -1
+3
+  rotate: false
+  xy: 986, 992
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 954, 987
+  size: 31, 28
+  orig: 35, 35
+  offset: 0, 3
+  index: -1
+5
+  rotate: false
+  xy: 1, 594
+  size: 422, 421
+  orig: 422, 421
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 432, 38
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 761, 64
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 423, 256
+  size: 166, 158
+  orig: 166, 170
+  offset: 0, 12
+  index: -1
+9
+  rotate: false
+  xy: 424, 415
+  size: 184, 205
+  orig: 184, 217
+  offset: 0, 12
+  index: -1

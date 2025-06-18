@@ -1,0 +1,20 @@
+
+Dealer.png
+size: 408,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 214, 23
+  size: 192, 253
+  orig: 192, 253
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 2
+  size: 210, 274
+  orig: 210, 274
+  offset: 0, 0
+  index: -1

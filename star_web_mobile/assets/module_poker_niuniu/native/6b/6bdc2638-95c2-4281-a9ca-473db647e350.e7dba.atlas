@@ -1,0 +1,27 @@
+
+niuniu.png
+size: 816,381
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02
+  rotate: false
+  xy: 383, 49
+  size: 307, 330
+  orig: 307, 330
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 2, 2
+  size: 379, 377
+  orig: 379, 377
+  offset: 0, 0
+  index: -1
+NiuNiu
+  rotate: true
+  xy: 692, 31
+  size: 348, 122
+  orig: 348, 122
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+h_angpow.png
+size: 791,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ap
+  rotate: false
+  xy: 394, 26
+  size: 93, 104
+  orig: 93, 104
+  offset: 0, 0
+  index: -1
+ap_shadow
+  rotate: false
+  xy: 489, 33
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+ap_tail_b
+  rotate: true
+  xy: 394, 12
+  size: 12, 33
+  orig: 12, 33
+  offset: 0, 0
+  index: -1
+ap_tail_f
+  rotate: true
+  xy: 743, 9
+  size: 67, 33
+  orig: 67, 33
+  offset: 0, 0
+  index: -1
+apx01
+  rotate: false
+  xy: 743, 78
+  size: 46, 52
+  orig: 48, 55
+  offset: 2, 0
+  index: -1
+apx02
+  rotate: false
+  xy: 681, 73
+  size: 60, 57
+  orig: 62, 62
+  offset: 2, 3
+  index: -1
+apx03
+  rotate: false
+  xy: 681, 18
+  size: 60, 53
+  orig: 62, 62
+  offset: 0, 9
+  index: -1
+apx_glow
+  rotate: false
+  xy: 588, 30
+  size: 91, 100
+  orig: 93, 104
+  offset: 0, 4
+  index: -1
+bg_glow
+  rotate: false
+  xy: 2, 3
+  size: 135, 127
+  orig: 136, 133
+  offset: 1, 4
+  index: -1
+double_frame
+  rotate: false
+  xy: 139, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+single_frame
+  rotate: false
+  xy: 269, 7
+  size: 123, 123
+  orig: 123, 123
+  offset: 0, 0
+  index: -1
+tail_f_shadow
+  rotate: false
+  xy: 489, 7
+  size: 70, 24
+  orig: 70, 24
+  offset: 0, 0
+  index: -1

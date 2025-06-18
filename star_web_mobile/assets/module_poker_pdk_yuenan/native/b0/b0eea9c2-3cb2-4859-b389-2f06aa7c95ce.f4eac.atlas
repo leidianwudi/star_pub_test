@@ -1,0 +1,111 @@
+
+CHAR_Croki_Water_Evo1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/barriga
+  rotate: false
+  xy: 829, 1247
+  size: 366, 194
+  orig: 373, 195
+  offset: 7, 1
+  index: -1
+images/boca_delante
+  rotate: false
+  xy: 745, 835
+  size: 340, 203
+  orig: 342, 253
+  offset: 2, 0
+  index: -1
+images/boca_detras
+  rotate: true
+  xy: 557, 1040
+  size: 401, 270
+  orig: 401, 273
+  offset: 0, 3
+  index: -1
+images/brazo_izq
+  rotate: false
+  xy: 2, 748
+  size: 231, 302
+  orig: 232, 310
+  offset: 0, 0
+  index: -1
+images/brillo_ojo
+  rotate: false
+  xy: 224, 524
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+images/cola
+  rotate: true
+  xy: 235, 731
+  size: 319, 230
+  orig: 320, 231
+  offset: 1, 1
+  index: -1
+images/cresta
+  rotate: false
+  xy: 467, 596
+  size: 315, 212
+  orig: 315, 213
+  offset: 0, 1
+  index: -1
+images/cuerpo
+  rotate: false
+  xy: 2, 1052
+  size: 553, 389
+  orig: 553, 390
+  offset: 0, 0
+  index: -1
+images/lengua
+  rotate: true
+  xy: 467, 810
+  size: 240, 69
+  orig: 240, 69
+  offset: 0, 0
+  index: -1
+images/ojo
+  rotate: false
+  xy: 538, 833
+  size: 205, 205
+  orig: 205, 207
+  offset: 0, 2
+  index: -1
+images/parpado_der
+  rotate: true
+  xy: 784, 704
+  size: 129, 106
+  orig: 130, 107
+  offset: 0, 1
+  index: -1
+images/parpado_izq
+  rotate: false
+  xy: 1197, 1322
+  size: 244, 119
+  orig: 244, 128
+  offset: 0, 0
+  index: -1
+images/pierna_der
+  rotate: false
+  xy: 2, 486
+  size: 220, 260
+  orig: 220, 263
+  offset: 0, 0
+  index: -1
+images/pierna_izq
+  rotate: true
+  xy: 829, 1071
+  size: 174, 232
+  orig: 175, 244
+  offset: 1, 0
+  index: -1
+images/pupila
+  rotate: true
+  xy: 1063, 1105
+  size: 140, 147
+  orig: 140, 147
+  offset: 0, 0
+  index: -1

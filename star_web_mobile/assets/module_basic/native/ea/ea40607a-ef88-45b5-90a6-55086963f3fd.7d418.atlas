@@ -1,0 +1,27 @@
+
+zhongji.png
+size: 447,242
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aixin
+  rotate: false
+  xy: 420, 215
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+biyan
+  rotate: true
+  xy: 420, 185
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+jues
+  rotate: true
+  xy: 2, 2
+  size: 238, 416
+  orig: 238, 416
+  offset: 0, 0
+  index: -1

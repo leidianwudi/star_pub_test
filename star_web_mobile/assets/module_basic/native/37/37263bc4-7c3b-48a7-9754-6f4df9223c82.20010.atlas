@@ -1,0 +1,20 @@
+
+ChuJi.png
+size: 427,231
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: true
+  xy: 409, 172
+  size: 57, 16
+  orig: 57, 16
+  offset: 0, 0
+  index: -1
+juese
+  rotate: true
+  xy: 2, 2
+  size: 227, 405
+  orig: 227, 405
+  offset: 0, 0
+  index: -1

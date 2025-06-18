@@ -1,0 +1,55 @@
+
+Despertador.png
+size: 445,291
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 396, 51
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 396, 2
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 334, 31
+  size: 60, 66
+  orig: 60, 66
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 15
+  size: 259, 274
+  orig: 271, 286
+  offset: 0, 9
+  index: -1
+5
+  rotate: false
+  xy: 334, 195
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 334, 99
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: true
+  xy: 263, 41
+  size: 248, 69
+  orig: 248, 69
+  offset: 0, 0
+  index: -1

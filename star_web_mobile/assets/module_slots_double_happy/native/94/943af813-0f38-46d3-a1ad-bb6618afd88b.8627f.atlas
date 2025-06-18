@@ -1,0 +1,90 @@
+
+h_bracelet.png
+size: 1156,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_glow
+  rotate: false
+  xy: 2, 5
+  size: 135, 127
+  orig: 136, 133
+  offset: 1, 4
+  index: -1
+double_frame
+  rotate: false
+  xy: 139, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fx_01
+  rotate: true
+  xy: 595, 18
+  size: 114, 87
+  orig: 125, 99
+  offset: 5, 8
+  index: -1
+fx_02
+  rotate: true
+  xy: 684, 18
+  size: 114, 87
+  orig: 125, 99
+  offset: 5, 8
+  index: -1
+fx_03
+  rotate: true
+  xy: 773, 18
+  size: 114, 87
+  orig: 125, 99
+  offset: 5, 8
+  index: -1
+fx_04
+  rotate: true
+  xy: 862, 18
+  size: 114, 87
+  orig: 125, 99
+  offset: 5, 8
+  index: -1
+fx_05
+  rotate: true
+  xy: 951, 18
+  size: 114, 87
+  orig: 125, 99
+  offset: 5, 8
+  index: -1
+fx_06
+  rotate: false
+  xy: 1040, 45
+  size: 114, 87
+  orig: 125, 99
+  offset: 5, 8
+  index: -1
+fx_sparkle
+  rotate: true
+  xy: 1040, 2
+  size: 41, 46
+  orig: 43, 47
+  offset: 1, 0
+  index: -1
+ring2_b
+  rotate: true
+  xy: 394, 11
+  size: 121, 99
+  orig: 125, 99
+  offset: 1, 0
+  index: -1
+ring2_t
+  rotate: true
+  xy: 495, 12
+  size: 120, 98
+  orig: 122, 98
+  offset: 0, 0
+  index: -1
+single_frame
+  rotate: false
+  xy: 269, 9
+  size: 123, 123
+  orig: 123, 123
+  offset: 0, 0
+  index: -1

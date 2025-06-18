@@ -1,0 +1,181 @@
+
+CHAR_Tickler.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+abdomen
+  rotate: false
+  xy: 2, 527
+  size: 535, 494
+  orig: 535, 494
+  offset: 0, 0
+  index: -1
+backleg_left
+  rotate: true
+  xy: 686, 290
+  size: 152, 121
+  orig: 153, 121
+  offset: 0, 0
+  index: -1
+backleg_right
+  rotate: true
+  xy: 199, 290
+  size: 90, 117
+  orig: 91, 117
+  offset: 1, 0
+  index: -1
+eye
+  rotate: true
+  xy: 809, 180
+  size: 137, 146
+  orig: 137, 146
+  offset: 0, 0
+  index: -1
+eye_shine
+  rotate: true
+  xy: 530, 154
+  size: 139, 149
+  orig: 139, 149
+  offset: 0, 0
+  index: -1
+eyelid_down
+  rotate: true
+  xy: 417, 383
+  size: 142, 112
+  orig: 143, 112
+  offset: 0, 0
+  index: -1
+eyelids
+  rotate: true
+  xy: 531, 295
+  size: 147, 153
+  orig: 147, 153
+  offset: 0, 0
+  index: -1
+frontleg_left
+  rotate: false
+  xy: 417, 244
+  size: 111, 137
+  orig: 111, 138
+  offset: 0, 1
+  index: -1
+frontleg_left_nail
+  rotate: false
+  xy: 2, 212
+  size: 105, 99
+  orig: 105, 100
+  offset: 0, 0
+  index: -1
+frontleg_right
+  rotate: false
+  xy: 681, 40
+  size: 97, 127
+  orig: 97, 127
+  offset: 0, 0
+  index: -1
+frontleg_right_nail
+  rotate: false
+  xy: 2, 109
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+head_back
+  rotate: true
+  xy: 2, 313
+  size: 212, 195
+  orig: 212, 196
+  offset: 0, 0
+  index: -1
+head_front
+  rotate: false
+  xy: 199, 382
+  size: 216, 143
+  orig: 216, 143
+  offset: 0, 0
+  index: -1
+horn
+  rotate: false
+  xy: 109, 193
+  size: 67, 118
+  orig: 67, 119
+  offset: 0, 1
+  index: -1
+midleg_left
+  rotate: false
+  xy: 539, 444
+  size: 268, 164
+  orig: 268, 164
+  offset: 0, 0
+  index: -1
+midleg_right
+  rotate: true
+  xy: 809, 319
+  size: 289, 152
+  orig: 289, 152
+  offset: 0, 0
+  index: -1
+mouth_left_back
+  rotate: false
+  xy: 914, 61
+  size: 106, 117
+  orig: 139, 122
+  offset: 33, 5
+  index: -1
+mouth_left_front
+  rotate: true
+  xy: 807, 39
+  size: 139, 105
+  orig: 139, 105
+  offset: 0, 0
+  index: -1
+mouth_right_back
+  rotate: false
+  xy: 681, 169
+  size: 124, 119
+  orig: 125, 120
+  offset: 0, 1
+  index: -1
+mouth_right_front
+  rotate: true
+  xy: 318, 279
+  size: 101, 94
+  orig: 103, 113
+  offset: 1, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 957, 231
+  size: 64, 86
+  orig: 67, 87
+  offset: 1, 0
+  index: -1
+shield_left
+  rotate: true
+  xy: 539, 610
+  size: 205, 441
+  orig: 205, 441
+  offset: 0, 0
+  index: -1
+shield_left_nail
+  rotate: false
+  xy: 178, 219
+  size: 70, 69
+  orig: 71, 69
+  offset: 0, 0
+  index: -1
+shield_right
+  rotate: true
+  xy: 539, 817
+  size: 204, 448
+  orig: 204, 450
+  offset: 0, 2
+  index: -1
+shield_right_nail
+  rotate: false
+  xy: 963, 536
+  size: 50, 72
+  orig: 50, 72
+  offset: 0, 0
+  index: -1

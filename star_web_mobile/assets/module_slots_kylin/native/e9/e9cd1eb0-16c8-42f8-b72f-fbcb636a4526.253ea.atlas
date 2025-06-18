@@ -1,0 +1,299 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0000
+  rotate: false
+  xy: 858, 165
+  size: 271, 337
+  orig: 638, 638
+  offset: 213, 167
+  index: -1
+0001
+  rotate: false
+  xy: 1130, 162
+  size: 271, 337
+  orig: 638, 638
+  offset: 213, 167
+  index: -1
+0002
+  rotate: false
+  xy: 1, 212
+  size: 270, 328
+  orig: 638, 638
+  offset: 213, 167
+  index: -1
+0003
+  rotate: false
+  xy: 1402, 146
+  size: 280, 339
+  orig: 638, 638
+  offset: 202, 167
+  index: -1
+0005
+  rotate: false
+  xy: 627, 513
+  size: 304, 311
+  orig: 638, 638
+  offset: 175, 167
+  index: -1
+0006
+  rotate: false
+  xy: 272, 193
+  size: 314, 333
+  orig: 638, 638
+  offset: 163, 167
+  index: -1
+0007
+  rotate: false
+  xy: 1, 842
+  size: 315, 291
+  orig: 638, 638
+  offset: 159, 167
+  index: -1
+0008
+  rotate: false
+  xy: 317, 828
+  size: 317, 292
+  orig: 638, 638
+  offset: 155, 167
+  index: -1
+0009
+  rotate: false
+  xy: 635, 825
+  size: 317, 292
+  orig: 638, 638
+  offset: 153, 166
+  index: -1
+0010
+  rotate: false
+  xy: 614, 1689
+  size: 318, 263
+  orig: 638, 638
+  offset: 151, 166
+  index: -1
+0011
+  rotate: false
+  xy: 624, 1121
+  size: 315, 285
+  orig: 638, 638
+  offset: 154, 166
+  index: -1
+0012
+  rotate: false
+  xy: 1, 1693
+  size: 307, 259
+  orig: 638, 638
+  offset: 162, 166
+  index: -1
+0013
+  rotate: false
+  xy: 309, 1691
+  size: 304, 261
+  orig: 638, 638
+  offset: 166, 166
+  index: -1
+0014
+  rotate: false
+  xy: 933, 1684
+  size: 306, 268
+  orig: 638, 638
+  offset: 166, 166
+  index: -1
+0015
+  rotate: false
+  xy: 1564, 1110
+  size: 285, 289
+  orig: 638, 638
+  offset: 188, 166
+  index: -1
+0016
+  rotate: false
+  xy: 1240, 1682
+  size: 307, 270
+  orig: 638, 638
+  offset: 167, 166
+  index: -1
+0017
+  rotate: false
+  xy: 1548, 1679
+  size: 326, 273
+  orig: 638, 638
+  offset: 150, 166
+  index: -1
+0018
+  rotate: false
+  xy: 1, 1417
+  size: 336, 273
+  orig: 638, 638
+  offset: 141, 166
+  index: -1
+0019
+  rotate: false
+  xy: 338, 1414
+  size: 331, 274
+  orig: 638, 638
+  offset: 147, 166
+  index: -1
+0020
+  rotate: false
+  xy: 670, 1407
+  size: 314, 276
+  orig: 638, 638
+  offset: 165, 167
+  index: -1
+0021
+  rotate: false
+  xy: 1297, 1400
+  size: 302, 278
+  orig: 638, 638
+  offset: 177, 167
+  index: -1
+0022
+  rotate: false
+  xy: 321, 1129
+  size: 302, 284
+  orig: 638, 638
+  offset: 178, 167
+  index: -1
+0023
+  rotate: false
+  xy: 940, 1118
+  size: 304, 286
+  orig: 638, 638
+  offset: 176, 167
+  index: -1
+0024
+  rotate: false
+  xy: 985, 1405
+  size: 311, 276
+  orig: 638, 638
+  offset: 169, 167
+  index: -1
+0025
+  rotate: false
+  xy: 1273, 813
+  size: 316, 296
+  orig: 638, 638
+  offset: 164, 167
+  index: -1
+0026
+  rotate: false
+  xy: 1, 1134
+  size: 319, 282
+  orig: 638, 638
+  offset: 161, 167
+  index: -1
+0027
+  rotate: false
+  xy: 306, 527
+  size: 320, 300
+  orig: 638, 638
+  offset: 159, 167
+  index: -1
+0028
+  rotate: false
+  xy: 1600, 1400
+  size: 317, 278
+  orig: 638, 638
+  offset: 162, 167
+  index: -1
+0029
+  rotate: false
+  xy: 1245, 1111
+  size: 318, 288
+  orig: 638, 638
+  offset: 161, 167
+  index: -1
+0030
+  rotate: false
+  xy: 1590, 810
+  size: 317, 299
+  orig: 638, 638
+  offset: 161, 167
+  index: -1
+0031
+  rotate: false
+  xy: 953, 816
+  size: 319, 294
+  orig: 638, 638
+  offset: 159, 167
+  index: -1
+0032
+  rotate: false
+  xy: 932, 503
+  size: 319, 312
+  orig: 638, 638
+  offset: 159, 167
+  index: -1
+0033
+  rotate: false
+  xy: 1, 541
+  size: 304, 300
+  orig: 638, 638
+  offset: 174, 167
+  index: -1
+0034
+  rotate: false
+  xy: 1541, 486
+  size: 290, 323
+  orig: 638, 638
+  offset: 188, 167
+  index: -1
+0035
+  rotate: false
+  xy: 1252, 500
+  size: 288, 312
+  orig: 638, 638
+  offset: 191, 167
+  index: -1
+0039
+  rotate: false
+  xy: 1683, 145
+  size: 269, 340
+  orig: 638, 638
+  offset: 213, 167
+  index: -1
+0040
+  rotate: false
+  xy: 587, 178
+  size: 270, 334
+  orig: 638, 638
+  offset: 213, 167
+  index: -1
+
+skeleton2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0004
+  rotate: false
+  xy: 1, 347
+  size: 295, 342
+  orig: 638, 638
+  offset: 187, 167
+  index: -1
+0036
+  rotate: false
+  xy: 1, 5
+  size: 290, 341
+  orig: 638, 638
+  offset: 189, 167
+  index: -1
+0037
+  rotate: false
+  xy: 297, 347
+  size: 272, 342
+  orig: 638, 638
+  offset: 208, 167
+  index: -1
+0038
+  rotate: false
+  xy: 292, 1
+  size: 271, 345
+  orig: 638, 638
+  offset: 210, 167
+  index: -1

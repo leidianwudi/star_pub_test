@@ -1,0 +1,55 @@
+
+baoxiang.png
+size: 1840,990
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caidai
+  rotate: true
+  xy: 2, 338
+  size: 650, 644
+  orig: 650, 644
+  offset: 0, 0
+  index: -1
+fagung
+  rotate: false
+  xy: 1444, 605
+  size: 384, 383
+  orig: 384, 383
+  offset: 0, 0
+  index: -1
+guan
+  rotate: false
+  xy: 1360, 27
+  size: 478, 500
+  orig: 478, 500
+  offset: 0, 0
+  index: -1
+guang2
+  rotate: true
+  xy: 648, 529
+  size: 459, 794
+  orig: 459, 794
+  offset: 0, 0
+  index: -1
+jibin
+  rotate: false
+  xy: 2, 2
+  size: 438, 334
+  orig: 438, 334
+  offset: 0, 0
+  index: -1
+kai
+  rotate: false
+  xy: 666, 27
+  size: 692, 500
+  orig: 692, 500
+  offset: 0, 0
+  index: -1
+yuan
+  rotate: false
+  xy: 442, 106
+  size: 222, 230
+  orig: 222, 230
+  offset: 0, 0
+  index: -1

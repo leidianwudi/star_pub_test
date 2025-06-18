@@ -1,0 +1,83 @@
+
+Victory_Defeat.png
+size: 2014,1419
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Defeat_
+  rotate: false
+  xy: 426, 14
+  size: 302, 93
+  orig: 302, 93
+  offset: 0, 0
+  index: -1
+Victory2
+  rotate: false
+  xy: 1582, 63
+  size: 331, 111
+  orig: 331, 111
+  offset: 0, 0
+  index: -1
+Victory_
+  rotate: true
+  xy: 1355, 1086
+  size: 331, 111
+  orig: 331, 111
+  offset: 0, 0
+  index: -1
+caidai
+  rotate: true
+  xy: 2, 670
+  size: 747, 327
+  orig: 747, 327
+  offset: 0, 0
+  index: -1
+caidai1
+  rotate: true
+  xy: 331, 670
+  size: 747, 327
+  orig: 747, 327
+  offset: 0, 0
+  index: -1
+chibangD
+  rotate: true
+  xy: 1582, 176
+  size: 682, 422
+  orig: 682, 422
+  offset: 0, 0
+  index: -1
+chibangV
+  rotate: true
+  xy: 2, 5
+  size: 663, 422
+  orig: 663, 422
+  offset: 0, 0
+  index: -1
+faguang
+  rotate: true
+  xy: 660, 697
+  size: 720, 693
+  orig: 720, 693
+  offset: 0, 0
+  index: -1
+faguang1
+  rotate: false
+  xy: 860, 2
+  size: 720, 693
+  orig: 720, 693
+  offset: 0, 0
+  index: -1
+mianban
+  rotate: true
+  xy: 1582, 860
+  size: 557, 430
+  orig: 559, 432
+  offset: 1, 0
+  index: -1
+mianban2
+  rotate: true
+  xy: 426, 109
+  size: 559, 432
+  orig: 559, 432
+  offset: 0, 0
+  index: -1

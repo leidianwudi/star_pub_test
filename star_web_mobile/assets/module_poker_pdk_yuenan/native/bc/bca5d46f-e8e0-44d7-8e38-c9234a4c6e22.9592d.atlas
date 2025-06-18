@@ -1,0 +1,139 @@
+
+CHAR_Bompi_Fire_Evo1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aleta_der
+  rotate: false
+  xy: 1942, 1804
+  size: 100, 112
+  orig: 101, 112
+  offset: 0, 0
+  index: -1
+aleta_izq
+  rotate: false
+  xy: 1942, 1690
+  size: 100, 112
+  orig: 101, 112
+  offset: 1, 0
+  index: -1
+base_ojo_der
+  rotate: true
+  xy: 513, 1577
+  size: 249, 254
+  orig: 249, 254
+  offset: 0, 0
+  index: -1
+base_ojo_izq
+  rotate: true
+  xy: 828, 1641
+  size: 230, 268
+  orig: 230, 268
+  offset: 0, 0
+  index: -1
+boca1
+  rotate: true
+  xy: 1336, 1401
+  size: 185, 189
+  orig: 185, 190
+  offset: 0, 1
+  index: -1
+boca2
+  rotate: false
+  xy: 513, 1828
+  size: 313, 217
+  orig: 313, 218
+  offset: 0, 1
+  index: -1
+boca3
+  rotate: false
+  xy: 1413, 1835
+  size: 275, 210
+  orig: 275, 210
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 1568
+  size: 509, 477
+  orig: 510, 477
+  offset: 0, 0
+  index: -1
+ceja_der
+  rotate: false
+  xy: 1942, 1918
+  size: 103, 127
+  orig: 103, 127
+  offset: 0, 0
+  index: -1
+ceja_izq
+  rotate: true
+  xy: 1902, 1577
+  size: 111, 119
+  orig: 111, 122
+  offset: 0, 3
+  index: -1
+cola
+  rotate: true
+  xy: 828, 1873
+  size: 172, 305
+  orig: 173, 305
+  offset: 1, 0
+  index: -1
+ojo_brillo_der
+  rotate: false
+  xy: 1659, 1555
+  size: 241, 238
+  orig: 241, 238
+  offset: 0, 0
+  index: -1
+ojo_brillo_izq
+  rotate: false
+  xy: 1690, 1795
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+ojo_der
+  rotate: false
+  xy: 1098, 1528
+  size: 236, 233
+  orig: 236, 233
+  offset: 0, 0
+  index: -1
+ojo_izq
+  rotate: false
+  xy: 1411, 1588
+  size: 246, 245
+  orig: 246, 245
+  offset: 0, 0
+  index: -1
+parpado_abajo
+  rotate: false
+  xy: 1135, 1907
+  size: 276, 138
+  orig: 276, 138
+  offset: 0, 0
+  index: -1
+parpado_arriba
+  rotate: false
+  xy: 1135, 1763
+  size: 274, 142
+  orig: 276, 142
+  offset: 2, 0
+  index: -1
+pupila_der
+  rotate: true
+  xy: 513, 1411
+  size: 164, 167
+  orig: 164, 167
+  offset: 0, 0
+  index: -1
+pupila_izq
+  rotate: false
+  xy: 769, 1468
+  size: 172, 171
+  orig: 172, 172
+  offset: 0, 1
+  index: -1
