@@ -1,0 +1,20 @@
+mysql:
+  host: '127.0.0.1'
+  port: 3306
+  username: 'root'
+  password: '123456'
+  database: 'star'
+  synchronize: false
+  logging: true
+
+
+redis:
+  host: 'localhost'
+  port: 6379
+  password: ''
+
+auth:
+  #api服务器生成token的jwt key
+  secret: 'f7a9uT16TyYO1s8ItTOX0p5T'
+  #游戏服务器生成token的key
+  secretKey: 'wmWZu2laXADSqPGM'
