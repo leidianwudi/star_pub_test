@@ -7,11 +7,13 @@ class ControllerCode {
     constructor(table) {
         this.m_table = table;
         this.m_table.controllerName = this.getClassName();
-        this.m_path = `src\\${this.m_table.param.modelName}\\${this.m_table.controllerName}.ts`;
+        this.m_path = `src\\${this.m_table.param.modelName}\\${this.m_table.controllerName}111.ts`;
     }
     outCode() {
         const isFile = ToolFile_1.ToolFile.fileExists(this.m_path);
         if (isFile) {
+            console.log(`文件已存在: ${this.m_path}`);
+            console.log(`请删除后重新生成: ${this.m_path}`);
             return;
         }
         ToolFile_1.ToolFile.clearFile(this.m_path);

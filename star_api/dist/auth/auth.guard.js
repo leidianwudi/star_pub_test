@@ -44,10 +44,9 @@ let AuthGuard = class AuthGuard {
         if (!authHeader) {
             throw new common_1.UnauthorizedException();
         }
-        let secret = this.configService.get("auth").secret;
         if (authHeader.type == "Bearer") {
             try {
-                const payload = await this.jwtService.verifyAsync(authHeader.token, { secret: secret });
+                const payload = await this.jwtService.verifyAsync(authHeader.token);
                 console.log('request user:', payload);
                 request['user'] = payload;
             }
@@ -59,7 +58,7 @@ let AuthGuard = class AuthGuard {
         }
         else if (authHeader.type == "Basic") {
             try {
-                const payload = await this.jwtService.verifyAsync(authHeader.token, { secret: secret });
+                const payload = await this.jwtService.verifyAsync(authHeader.token);
                 console.log('request token:', payload);
                 let authCfg = this.configService.get("auth");
                 let sign = TokenUtils.genGameServerToken(payload.uid, payload.token, "", "", payload.time, authCfg.secretKey);

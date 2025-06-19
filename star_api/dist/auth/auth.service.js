@@ -75,9 +75,8 @@ let AuthService = class AuthService {
             roles: [role_enum_1.Role.Admin],
             roleId: admin.role_id
         };
-        let secret = this.configService.get("auth").secret;
         return {
-            token: await this.jwtService.signAsync(payload, { secret: secret }),
+            token: await this.jwtService.signAsync(payload),
         };
     }
 };

@@ -18,9 +18,25 @@ const typeorm_1 = require("@nestjs/typeorm");
 const typeorm_2 = require("typeorm");
 const En_ReportDayPerson_1 = require("./entities/En_ReportDayPerson");
 const ReportDayPersonService_1 = require("./ReportDayPersonService_");
+const ToolGroupBy_1 = require("../../common/ToolGroupBy");
+const ToolTime_1 = require("../../common/ToolTime");
 let ReportDayPersonService = class ReportDayPersonService extends ReportDayPersonService_1.ReportDayPersonService_ {
     constructor(En_ReportDayPersonRep) {
         super(En_ReportDayPersonRep);
+    }
+    async select(queryParams) {
+        const { list, total } = await this.rep.findAndCount(queryParams);
+        console.log(queryParams);
+        console.log('传入 utc 值：', queryParams.utc);
+        const stringList = (0, ToolTime_1.convertToStringList)(list);
+        const groupedList = (0, ToolGroupBy_1.groupByAccountAndDay)(stringList, queryParams.utc ?? 8);
+        return {
+            list: groupedList,
+            total: groupedList.length,
+            page: 1,
+            pageNum: groupedList.length,
+            totalPages: 1,
+        };
     }
 };
 exports.ReportDayPersonService = ReportDayPersonService;

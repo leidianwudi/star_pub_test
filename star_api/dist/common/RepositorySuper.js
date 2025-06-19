@@ -15,6 +15,19 @@ class RepositorySuper {
         });
         return { list, total };
     }
+    async findAndCountGroupBySp(builder, pageNo, pageSize) {
+        const skip = (pageNo - 1) * pageSize;
+        const take = pageSize;
+        const paged = builder.clone().skip(skip).take(take);
+        const totalBuilder = builder.clone().offset(undefined).limit(undefined);
+        const list = await paged.getRawMany();
+        const total = (await totalBuilder.getRawMany()).length;
+        return {
+            list,
+            total,
+            totalPages: Math.ceil(total / pageSize),
+        };
+    }
 }
 exports.RepositorySuper = RepositorySuper;
 //# sourceMappingURL=RepositorySuper.js.map
