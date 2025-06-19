@@ -1,0 +1,42 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "resources",
+    "deps": [],
+    "uuids": [
+        "03ccd410a",
+        "490db6c2-4dd4-4050-98ec-c1c62ccaae16",
+        "add9fcaa-8475-4521-917b-7de307b81c4d"
+    ],
+    "paths": {
+        "add9fcaa-8475-4521-917b-7de307b81c4d": [
+            "multTextures/Mult-effect",
+            "cc.EffectAsset",
+            1
+        ],
+        "490db6c2-4dd4-4050-98ec-c1c62ccaae16": [
+            "multTextures/Mult-material",
+            "cc.Material",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "03ccd410a": [
+            "490db6c2-4dd4-4050-98ec-c1c62ccaae16",
+            "add9fcaa-8475-4521-917b-7de307b81c4d"
+        ]
+    },
+    "versions": {
+        "import": [
+            "03ccd410a",
+            "398c7"
+        ],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
