@@ -8,6 +8,7 @@ export interface AuthUser {
     username?: string;
     roles: Role[];
     roleId?: string;
+    account?: string;
 }
 export declare class AuthService {
     private adminRepository;

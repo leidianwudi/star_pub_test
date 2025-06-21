@@ -16,6 +16,7 @@ const En_GameBase_1 = require("../../gameBase/entities/En_GameBase");
 const En_ReportDayGame_1 = require("../../../report/reportGame/entities/En_ReportDayGame");
 const En_GameOdds_1 = require("../../gameOdds/entities/En_GameOdds");
 const En_GameOddsExt_1 = require("../../gameOddsExt/entities/En_GameOddsExt");
+const En_ReportDayGameUtc_1 = require("../../../report/reportGameUtc/entities/En_ReportDayGameUtc");
 let En_GameType = class En_GameType {
 };
 exports.En_GameType = En_GameType;
@@ -55,6 +56,10 @@ __decorate([
     (0, typeorm_1.OneToMany)(() => En_GameOddsExt_1.En_GameOddsExt, (gameOddsExt) => gameOddsExt.gameType),
     __metadata("design:type", Array)
 ], En_GameType.prototype, "gameOddsExt", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => En_ReportDayGameUtc_1.En_ReportDayGameUtc, (reportDayGameUtc) => reportDayGameUtc.gameType),
+    __metadata("design:type", Array)
+], En_GameType.prototype, "reportDayGameUtc", void 0);
 exports.En_GameType = En_GameType = __decorate([
     (0, typeorm_1.Entity)('game_type')
 ], En_GameType);

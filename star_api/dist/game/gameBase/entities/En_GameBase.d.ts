@@ -3,6 +3,7 @@ import { En_GameType } from 'src/game/gameType/entities/En_GameType';
 import { En_ReportDayGame } from 'src/report/reportGame/entities/En_ReportDayGame';
 import { En_PokerRoom } from 'src/game/pokerRoom/entities/En_PokerRoom';
 import { En_GameOddsExt } from 'src/game/gameOddsExt/entities/En_GameOddsExt';
+import { En_ReportDayGameUtc } from 'src/report/reportGameUtc/entities/En_ReportDayGameUtc';
 export declare class En_GameBase {
     id: number;
     sort: number;
@@ -16,4 +17,5 @@ export declare class En_GameBase {
     reportDayGame: En_ReportDayGame[];
     pokerRoom: En_PokerRoom[];
     gameOddsExt: En_GameOddsExt[];
+    reportDayGameUtc: En_ReportDayGameUtc[];
 }

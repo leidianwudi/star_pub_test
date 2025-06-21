@@ -7,7 +7,7 @@ class ControllerCode {
     constructor(table) {
         this.m_table = table;
         this.m_table.controllerName = this.getClassName();
-        this.m_path = `src\\${this.m_table.param.modelName}\\${this.m_table.controllerName}111.ts`;
+        this.m_path = `src\\${this.m_table.param.modelName}\\${this.m_table.controllerName}.ts`;
     }
     outCode() {
         const isFile = ToolFile_1.ToolFile.fileExists(this.m_path);

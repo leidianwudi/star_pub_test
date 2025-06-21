@@ -24,10 +24,8 @@ let ReportDayPersonService = class ReportDayPersonService extends ReportDayPerso
     constructor(En_ReportDayPersonRep) {
         super(En_ReportDayPersonRep);
     }
-    async select(queryParams) {
+    async selectByUtc(queryParams) {
         const { list, total } = await this.rep.findAndCount(queryParams);
-        console.log(queryParams);
-        console.log('传入 utc 值：', queryParams.utc);
         const stringList = (0, ToolTime_1.convertToStringList)(list);
         const groupedList = (0, ToolGroupBy_1.groupByAccountAndDay)(stringList, queryParams.utc ?? 8);
         return {
@@ -36,6 +34,20 @@ let ReportDayPersonService = class ReportDayPersonService extends ReportDayPerso
             page: 1,
             pageNum: groupedList.length,
             totalPages: 1,
+        };
+    }
+    async selectTotal() {
+        const list = await this.rep.db.find();
+        const totals = {};
+        list.forEach(item => {
+            for (const key in item) {
+                if (key === 'id' || key === 'day' || key === 'account')
+                    continue;
+                totals[key] = (totals[key] || 0) + Number(item[key]);
+            }
+        });
+        return {
+            list: [totals]
         };
     }
 };

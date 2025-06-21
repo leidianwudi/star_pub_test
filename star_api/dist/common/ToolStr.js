@@ -19,6 +19,9 @@ class ToolStr {
             .map(part => part.charAt(0).toUpperCase() + part.slice(1))
             .join('_');
     }
+    static str2Num(str) {
+        return parseInt(str);
+    }
     static upperFirst(str) {
         if (!str)
             return str;

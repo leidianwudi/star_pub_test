@@ -17,6 +17,7 @@ const En_GameType_1 = require("../../gameType/entities/En_GameType");
 const En_ReportDayGame_1 = require("../../../report/reportGame/entities/En_ReportDayGame");
 const En_PokerRoom_1 = require("../../pokerRoom/entities/En_PokerRoom");
 const En_GameOddsExt_1 = require("../../gameOddsExt/entities/En_GameOddsExt");
+const En_ReportDayGameUtc_1 = require("../../../report/reportGameUtc/entities/En_ReportDayGameUtc");
 let En_GameBase = class En_GameBase {
 };
 exports.En_GameBase = En_GameBase;
@@ -76,6 +77,10 @@ __decorate([
     (0, typeorm_1.OneToMany)(() => En_GameOddsExt_1.En_GameOddsExt, (gameOddsExt) => gameOddsExt.gameBase),
     __metadata("design:type", Array)
 ], En_GameBase.prototype, "gameOddsExt", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => En_ReportDayGameUtc_1.En_ReportDayGameUtc, (reportDayGameUtc) => reportDayGameUtc.gameBase),
+    __metadata("design:type", Array)
+], En_GameBase.prototype, "reportDayGameUtc", void 0);
 exports.En_GameBase = En_GameBase = __decorate([
     (0, typeorm_1.Entity)('game_base')
 ], En_GameBase);

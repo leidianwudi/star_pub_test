@@ -3,7 +3,7 @@ export declare class In_InsReportDayGame {
     day: Date;
     type_code: string;
     game_code: string;
-    cost: number;
+    spend: number;
     win: number;
     final: number;
     play_num: number;

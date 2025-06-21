@@ -17,6 +17,7 @@ const roles_guard_1 = require("./roles.guard");
 const typeorm_1 = require("@nestjs/typeorm");
 const admin_entity_1 = require("../admin/entities/admin.entity");
 const config_1 = require("@nestjs/config");
+const UserModule_1 = require("../users/UserModule");
 let AuthModule = class AuthModule {
 };
 exports.AuthModule = AuthModule;
@@ -36,6 +37,7 @@ exports.AuthModule = AuthModule = __decorate([
                 inject: [config_1.ConfigService],
             }),
             typeorm_1.TypeOrmModule.forFeature([admin_entity_1.Admin]),
+            UserModule_1.UserModule
         ],
         controllers: [auth_controller_1.AuthController],
         providers: [

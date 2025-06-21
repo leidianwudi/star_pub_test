@@ -10,26 +10,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthGuard = exports.TokenUtils = void 0;
-const node_crypto_1 = require("node:crypto");
+const crypto = require("node:crypto");
 const common_1 = require("@nestjs/common");
 const core_1 = require("@nestjs/core");
 const jwt_1 = require("@nestjs/jwt");
 const public_decorator_1 = require("./public.decorator");
 const config_1 = require("@nestjs/config");
 const role_enum_1 = require("./role.enum");
+const UserService_1 = require("../users/UserService");
+const ToolStr_1 = require("../common/ToolStr");
 class TokenUtils {
     static genGameServerToken(uid, worldServerUrl, roomId, gameType, time, secretKey) {
         let content = uid + worldServerUrl + roomId + gameType + time + secretKey;
-        let token = node_crypto_1.default.createHash('md5').update(content).digest('hex');
+        let token = crypto.createHash('md5').update(content).digest('hex');
         return token;
     }
 }
 exports.TokenUtils = TokenUtils;
 let AuthGuard = class AuthGuard {
-    constructor(configService, jwtService, reflector) {
+    constructor(configService, jwtService, reflector, userService) {
         this.configService = configService;
         this.jwtService = jwtService;
         this.reflector = reflector;
+        this.userService = userService;
     }
     async canActivate(context) {
         const isPublic = this.reflector.getAllAndOverride(public_decorator_1.IS_PUBLIC_KEY, [
@@ -65,8 +68,14 @@ let AuthGuard = class AuthGuard {
                 if (sign != payload.sign) {
                     return false;
                 }
+                let userEn = await this.userService.selectById(ToolStr_1.ToolStr.str2Num(payload.uid));
+                console.log('request user-----------:', userEn);
+                if (!userEn) {
+                    return false;
+                }
                 let user = {
                     userid: payload.uid,
+                    account: userEn.account,
                     roles: [role_enum_1.Role.User],
                 };
                 request['user'] = user;
@@ -100,6 +109,7 @@ exports.AuthGuard = AuthGuard = __decorate([
     (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [config_1.ConfigService,
         jwt_1.JwtService,
-        core_1.Reflector])
+        core_1.Reflector,
+        UserService_1.UserService])
 ], AuthGuard);
 //# sourceMappingURL=auth.guard.js.map

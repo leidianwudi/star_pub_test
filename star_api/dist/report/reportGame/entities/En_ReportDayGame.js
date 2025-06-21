@@ -41,7 +41,7 @@ __decorate([
     (0, swagger_1.ApiProperty)({ description: "花费,负数" }),
     (0, typeorm_1.Column)({ type: 'decimal', default: 0.0000 }),
     __metadata("design:type", Number)
-], En_ReportDayGame.prototype, "cost", void 0);
+], En_ReportDayGame.prototype, "spend", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: "奖励" }),
     (0, typeorm_1.Column)({ type: 'decimal', default: 0.0000 }),

@@ -2,6 +2,7 @@ import { En_GameBase } from 'src/game/gameBase/entities/En_GameBase';
 import { En_ReportDayGame } from 'src/report/reportGame/entities/En_ReportDayGame';
 import { En_GameOdds } from 'src/game/gameOdds/entities/En_GameOdds';
 import { En_GameOddsExt } from 'src/game/gameOddsExt/entities/En_GameOddsExt';
+import { En_ReportDayGameUtc } from 'src/report/reportGameUtc/entities/En_ReportDayGameUtc';
 export declare class En_GameType {
     id: number;
     type_code: string;
@@ -11,4 +12,5 @@ export declare class En_GameType {
     reportDayGame: En_ReportDayGame[];
     gameOdds: En_GameOdds[];
     gameOddsExt: En_GameOddsExt[];
+    reportDayGameUtc: En_ReportDayGameUtc[];
 }

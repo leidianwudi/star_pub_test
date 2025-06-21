@@ -5,5 +5,8 @@ import { Out_SelReportDayPerson } from './out/Out_SelReportDayPerson';
 import { ReportDayPersonService_ } from './ReportDayPersonService_';
 export declare class ReportDayPersonService extends ReportDayPersonService_ {
     constructor(En_ReportDayPersonRep: Repository<En_ReportDayPerson>);
-    select(queryParams: In_SelReportDayPersonSp): Promise<Out_SelReportDayPerson>;
+    selectByUtc(queryParams: In_SelReportDayPersonSp): Promise<Out_SelReportDayPerson>;
+    selectTotal(): Promise<{
+        list: Partial<En_ReportDayPerson>[];
+    }>;
 }

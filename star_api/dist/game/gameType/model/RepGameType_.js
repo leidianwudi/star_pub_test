@@ -14,7 +14,7 @@ class RepGameType_ extends RepositorySuper_1.RepositorySuper {
         }
         const { list, total } = await this.findAndCountSp(queryParams.page, queryParams.pageNum, {
             where,
-            relations: ['gameBases', 'reportDayGame', 'gameOdds', 'gameOddsExt'],
+            relations: ['gameBases', 'reportDayGame', 'gameOdds', 'gameOddsExt', 'reportDayGameUtc'],
         });
         return { list, total };
     }

@@ -19,21 +19,37 @@ const swagger_1 = require("@nestjs/swagger");
 const ReportDayPersonController_1 = require("./ReportDayPersonController_");
 const In_SelReportDayPersonSp_1 = require("./in/In_SelReportDayPersonSp");
 let ReportDayPersonController = class ReportDayPersonController extends ReportDayPersonController_1.ReportDayPersonController_ {
-    constructor(service) { super(service); }
-    async select(queryParams) {
-        return this.service.select(queryParams);
+    constructor(service) {
+        super(service);
+    }
+    async selectByUtc(queryParams, req) {
+        let user = req["user"];
+        queryParams.account = user.account;
+        console.log('selectByUtc1111:', queryParams);
+        return this.service.selectByUtc(queryParams);
+    }
+    async selectTotal() {
+        return await this.service.selectTotal();
     }
 };
 exports.ReportDayPersonController = ReportDayPersonController;
 __decorate([
-    (0, common_1.Post)('select'),
+    (0, common_1.Post)('selectByUtc'),
     __param(0, (0, common_1.Body)()),
+    __param(1, (0, common_1.Request)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [In_SelReportDayPersonSp_1.In_SelReportDayPersonSp]),
+    __metadata("design:paramtypes", [In_SelReportDayPersonSp_1.In_SelReportDayPersonSp, Object]),
     __metadata("design:returntype", Promise)
-], ReportDayPersonController.prototype, "select", null);
+], ReportDayPersonController.prototype, "selectByUtc", null);
+__decorate([
+    (0, common_1.HttpCode)(common_1.HttpStatus.OK),
+    (0, common_1.Post)('selectTotal'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Promise)
+], ReportDayPersonController.prototype, "selectTotal", null);
 exports.ReportDayPersonController = ReportDayPersonController = __decorate([
-    (0, swagger_1.ApiTags)('ReportDayPersonController'),
+    (0, swagger_1.ApiTags)('玩家日统计数据'),
     (0, common_1.Controller)('ReportDayPersonController'),
     __metadata("design:paramtypes", [ReportDayPersonService_1.ReportDayPersonService])
 ], ReportDayPersonController);

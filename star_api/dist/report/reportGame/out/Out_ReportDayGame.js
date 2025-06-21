@@ -33,7 +33,7 @@ __decorate([
 __decorate([
     (0, swagger_1.ApiProperty)({ description: "花费,负数" }),
     __metadata("design:type", Number)
-], Out_ReportDayGame.prototype, "cost", void 0);
+], Out_ReportDayGame.prototype, "spend", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: "奖励" }),
     __metadata("design:type", Number)
