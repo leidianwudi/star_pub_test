@@ -10,6 +10,7 @@ const tsrpc_1 = require("tsrpc");
 const serviceProto_public_1 = require("../shared/protocols/serviceProto_public");
 const ServerGloabls_1 = require("./ServerGloabls");
 const Constants_1 = require("../shared/configs/Constants");
+const Logger_1 = require("./Logger");
 class WebsocketGameServer {
     constructor() {
         /**
@@ -36,7 +37,8 @@ class WebsocketGameServer {
             port: port,
             // Remove this to use binary mode (remove from the client too)
             json: true,
-            logMsg: false
+            logMsg: false,
+            logger: Logger_1.tsrpcLogger,
         });
         this.logger = this.server.logger;
         this.server.flows.postConnectFlow.push(call => {

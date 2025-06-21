@@ -35,7 +35,13 @@ class LineSlotAllTheSame {
         if (allTheSame) {
             console.log("slot all the same.");
             pay.payout = pay.payout.multiply(this.game.allTheSame.multiple);
-            pay.allTheSame = { id: sym.id, isTheSame: true }; //返回青一色具体id
+            let symId = sym === null || sym === void 0 ? void 0 : sym.id;
+            if (!symId) {
+                //全部都是通配符
+                symId = genResult.symbols[0].id;
+            }
+            console.log("all the same symbol id:", symId);
+            pay.allTheSame = { id: symId, isTheSame: true }; //返回青一色具体id
         }
         return pay;
     }

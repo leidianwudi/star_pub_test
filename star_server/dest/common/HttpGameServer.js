@@ -9,6 +9,7 @@ const path_1 = __importDefault(require("path"));
 const tsrpc_1 = require("tsrpc");
 const serviceProto_private_1 = require("../privateProtocols/serviceProto_private");
 const serviceProto_public_1 = require("../shared/protocols/serviceProto_public");
+const Logger_1 = require("./Logger");
 class HttpGameServer {
     constructor() {
         this._serviceName = '';
@@ -25,6 +26,7 @@ class HttpGameServer {
                 port: port,
                 keepAliveTimeout: 30000,
                 logLevel: "warn",
+                logger: Logger_1.tsrpcLogger,
                 // Remove this to use binary mode (remove from the client too)
                 json: true
             });
@@ -35,6 +37,7 @@ class HttpGameServer {
                 port: port,
                 keepAliveTimeout: 30000,
                 logLevel: "warn",
+                logger: Logger_1.tsrpcLogger,
                 // Remove this to use binary mode (remove from the client too)
                 json: true
             });

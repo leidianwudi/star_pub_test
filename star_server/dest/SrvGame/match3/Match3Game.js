@@ -182,7 +182,7 @@ exports.DefaultMatch3Builder = DefaultMatch3Builder;
 class SongkranBuilder {
     create(game, isLucky, isFree, sureWin, context) {
         let gen = new Match3Generator_1.Match3Generator(game, isLucky, isFree);
-        let generator = new LuckyGenerator_1.LuckyGenerator(game, gen, isLucky);
+        let generator = new LuckyGenerator_1.LuckyGenerator(game, gen, isLucky, [], [{ row: 1, reel: 1 }, { row: 1, reel: 2 }, { row: 1, reel: 4 }, { row: 1, reel: 5 }, { row: 2, reel: 1 }, { row: 2, reel: 5 }]);
         let verify = new SlotMatch3_1.Match3Verify(game);
         let roundPays = [];
         roundPays.push(new SlotMatch3_1.Match3Pay(game));

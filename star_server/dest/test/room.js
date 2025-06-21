@@ -10,13 +10,12 @@ exports.matchRoom = matchRoom;
 const assert_1 = require("assert");
 const tsrpc_1 = require("tsrpc");
 const serviceProto_public_1 = require("../shared/protocols/serviceProto_public");
-const Constants_1 = require("../common/Constants");
 const HTTP_SERVER = "http://127.0.0.1:3001";
 const WS_SERVER = "ws://127.0.0.1:4001";
 //测试外网服务器
 // const HTTP_SERVER = "http://8.216.89.33:80"
 // const WS_SERVER = "ws://8.216.89.33:80";
-const ROLE_NAME = Constants_1.TEST_ROLE_NAME;
+const ROLE_NAME = ""; //TEST_ROLE_NAME;
 async function createRoomClient(gameType, listenMsg) {
     let r = await createRoom("test", "111111", gameType, listenMsg);
     return r.client;

@@ -30,6 +30,10 @@ __decorate([
     (0, typeorm_1.Column)({ name: "odds_value" }),
     __metadata("design:type", Number)
 ], GameOdds.prototype, "oddsValue", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", Boolean)
+], GameOdds.prototype, "enable", void 0);
 exports.GameOdds = GameOdds = __decorate([
     (0, typeorm_1.Entity)()
 ], GameOdds);

@@ -184,6 +184,14 @@ class RoomSlots {
         if (!slot) {
             throw new tsrpc_1.TsrpcError('INVALID_SLOT', { code: err.ERR_NO_GAME_CONFIG });
         }
+        let winOdds = await DBMgr_1.dbSlot.getSlotsWinOdds(gameId);
+        let loopCount = await DBMgr_1.dbSlot.getSlotsLoopCount(gameId);
+        if (winOdds != null && loopCount != null) {
+            slot.win = { winOdds: winOdds, loopCount: loopCount };
+            if (loopCount <= 0) {
+                throw new tsrpc_1.TsrpcError("INVALID_CYCLE_COUNT");
+            }
+        }
         let bigEventsOdds = await DBMgr_1.dbSlot.getSlotsBigEventsOdds(gameId);
         if (bigEventsOdds != null) {
             if (slot.lucky) {

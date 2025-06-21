@@ -20,6 +20,9 @@ class DBGameOdds {
             if (!a) {
                 return null;
             }
+            if (!a.enable) {
+                return null;
+            }
             await redis.setEX(key, "" + a.oddsValue, EXPIRE_SECONDS);
             return a.oddsValue / 1000;
         }
@@ -35,6 +38,9 @@ class DBGameOdds {
             let repo = DataSource_1.AppDataSource.getRepository(GameOddsExt_1.GameOddsExt);
             const a = await repo.findOneBy({ gameTypeCode: gameType, gameCode: gameId, oddsKey: oddsKey });
             if (!a) {
+                return null;
+            }
+            if (!a.enable) {
                 return null;
             }
             await redis.setEX(key, "" + a.oddsValue, EXPIRE_SECONDS);
@@ -109,6 +115,23 @@ class DBSlot {
             slot.game_id = game_id;
             return slot;
         }
+    }
+    async getSlotsWinOdds(gameId) {
+        let p = await this.db.getGameOddsExt("slots", gameId, "win_odds");
+        if (p == null) {
+            p = await this.db.getGameOdds("slots", "win_odds");
+        }
+        return p;
+    }
+    async getSlotsLoopCount(gameId) {
+        let p = await this.db.getGameOddsExt("slots", gameId, "cycle_count");
+        if (p == null) {
+            p = await this.db.getGameOdds("slots", "cycle_count");
+        }
+        if (p != null) {
+            p = p * 1000;
+        }
+        return p;
     }
     async getSlotsBigEventsOdds(gameId) {
         let p = await this.db.getGameOddsExt("slots", gameId, "big_events_odds");

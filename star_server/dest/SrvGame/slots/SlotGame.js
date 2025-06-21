@@ -14,24 +14,9 @@ class SlotGame {
             this.logger.warn("test slots lucky.");
         }
     }
-    //单局结果生成,一局里还有多轮消除。payLastRound:  最后一轮的支付  payRound: 每一轮的支付。2者不能同时存在
-    spinOneTime(bet, isFree, context, payLastRound, payRound) {
+    spinOneMatch(bet, isFree, context, isLucky, payLastRound, payRound) {
         var _a;
         const game = this.game;
-        //幸运状态
-        let isLucky = false;
-        //免费的不触发lucky模式
-        if (game.lucky && !isFree) {
-            if (Math.random() < game.lucky.probability) {
-                isLucky = true;
-                this.logger.log("lucky status, game id:", game.id);
-            }
-        }
-        if (this.testIsLucky) {
-            this.logger.warn("slot run in lucky mode");
-            isLucky = this.testIsLucky;
-            this.testIsLucky = false; //test lucky only one time.
-        }
         const { generator, pays, verify, roundPays } = this.builder.create(game, isLucky, isFree, bet.sureWin, context, this.logger);
         let rounds = [];
         let chosenSymbolId = undefined; //幸运符号
@@ -117,6 +102,78 @@ class SlotGame {
             virtualBigEvents: isVirtualLucky,
             chosenSymbolId: chosenSymbolId, //幸运符号
         };
+    }
+    //单局结果生成,一局里还有多轮消除。payLastRound:  最后一轮的支付  payRound: 每一轮的支付。2者不能同时存在
+    spinOneTime(bet, isFree, context, payLastRound, payRound) {
+        const game = this.game;
+        //幸运状态
+        let isLucky = false;
+        //免费的不触发lucky模式
+        if (game.lucky && !isFree) {
+            if (Math.random() < game.lucky.probability) {
+                isLucky = true;
+                this.logger.log("lucky status, game id:", game.id);
+            }
+        }
+        if (this.testIsLucky && !isFree) {
+            this.logger.warn("slot run in lucky mode");
+            isLucky = this.testIsLucky;
+        }
+        if (game.win) {
+            let r = Math.random();
+            //是否要生成赢的结果
+            let isWin = r < game.win.winOdds;
+            if (this.testIsLucky && isLucky) {
+                isWin = true;
+            }
+            if (!isWin) {
+                isLucky = false;
+            }
+            if (game.win.loopCount <= 0) {
+                throw new Error("win loop count is zero");
+            }
+            this.logger.log("slots spin win:", isWin, " lucky:", isLucky);
+            let results = [];
+            let count = 0;
+            while (count < game.win.loopCount) {
+                count += 1;
+                this.logger.log("spin count:", count, " loop count:", game.win.loopCount);
+                let res = this.spinOneMatch(bet, isFree, context, isLucky, payLastRound, payRound);
+                results.push(res);
+                if (isWin) {
+                    //中奖直接返回
+                    if (res.payout.isGreaterThan(0)) {
+                        return res;
+                    }
+                }
+                else {
+                    //未中奖直接返回
+                    if (res.payout.isEqualTo(0)) {
+                        return res;
+                    }
+                }
+            }
+            if (isWin) {
+                //循环多次结果都未中奖
+                return results[0];
+            }
+            else {
+                //循环多次结果都中奖，找出赔付金额最小的结果
+                let minRes = undefined;
+                for (let res of results) {
+                    if (!minRes) {
+                        minRes = res;
+                    }
+                    else if (res.payout.isLessThan(minRes.payout)) {
+                        minRes = res;
+                    }
+                }
+                return minRes;
+            }
+        }
+        else {
+            return this.spinOneMatch(bet, isFree, context, isLucky, payLastRound, payRound);
+        }
     }
     //slots一次下注的完整结果生成
     spin(bet, pay, payRound) {

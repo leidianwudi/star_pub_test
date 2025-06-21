@@ -15,6 +15,7 @@ const WebsocketGameServer_1 = require("./common/WebsocketGameServer");
 const DBMgr_1 = require("./db/DBMgr");
 const RedisClient_1 = require("./db/RedisClient");
 const PinballGame_1 = require("./SrvGame/lineslot/PinballGame");
+const Logger_1 = require("./common/Logger");
 class ServerApp {
     static async initConfigs() {
         let config = null;
@@ -98,6 +99,12 @@ class ServerApp {
         node_util_1.inspect.defaultOptions.depth = 6;
         ServerGloabls_1.ServerGlobals.uuid = (0, uuid_1.v4)();
         this.initConfigs();
+        if (ServerGloabls_1.ServerGlobals.logDir != "") {
+            (0, Logger_1.addFileTransport)(ServerGloabls_1.ServerGlobals.logDir);
+        }
+        if (!ServerGloabls_1.ServerGlobals.dev) {
+            (0, Logger_1.removeConsoleTransport)();
+        }
         await (0, DBMgr_1.dbInitialize)();
         await RedisClient_1.RedisClient.createClient(ServerGloabls_1.ServerGlobals.redis);
         if (ServerGloabls_1.ServerGlobals.pinball && ServerGloabls_1.ServerGlobals.pinball.path) {
@@ -139,9 +146,9 @@ class ServerApp {
         args.publicWsUrl = env.publicWsUrl || `ws://${NetworkUtil_1.NetworkUtil.getLocalIPv4()}:${env.publicWsPort}`;
         args.internalUrl = `http://${args.ip}:${args.internalPort}`;
         ServerGloabls_1.ServerGlobals.options = args;
-        console.log('=============Server App================');
-        console.log(ServerGloabls_1.ServerGlobals);
-        console.log('=============Server App================');
+        Logger_1.logger.log('=============Server App================');
+        Logger_1.logger.log(ServerGloabls_1.ServerGlobals);
+        Logger_1.logger.log('=============Server App================');
         // RPC HTTP 服务
         await HttpGameServer_1.internalRPCHttpService.init(args.internalPort, '../apiPrivate');
         if (args.publicHttpPort) {
@@ -194,12 +201,12 @@ if (printMemUsage) {
         memoryUsageMax.heapTotal = Math.max(memoryUsageMax.heapTotal, usage.heapTotal);
         memoryUsageMax.heapUsed = Math.max(memoryUsageMax.heapUsed, usage.heapUsed);
         memoryUsageMax.rss = Math.max(memoryUsageMax.rss, usage.rss);
-        console.log("==== Memory Usage====");
-        console.log('ArrayBuffers', memoryUsageMin.arrayBuffers, memoryUsageMax.arrayBuffers, usage.arrayBuffers, usage.arrayBuffers - memoryUsageMin.arrayBuffers);
-        console.log('External', memoryUsageMin.external, memoryUsageMax.external, usage.external, usage.external - memoryUsageMin.external);
-        console.log('HeapTotal', memoryUsageMin.heapTotal, memoryUsageMax.heapTotal, usage.heapTotal, usage.heapTotal - memoryUsageMin.heapTotal);
-        console.log('HeapUsed', memoryUsageMin.heapUsed, memoryUsageMax.heapUsed, usage.heapUsed, usage.heapUsed - memoryUsageMin.heapUsed);
-        console.log('Rss', memoryUsageMin.rss, memoryUsageMax.rss, usage.rss, usage.rss - memoryUsageMin.rss);
-        //console.log(process.cpuUsage(),process.memoryUsage());
+        Logger_1.logger.log("==== Memory Usage====");
+        Logger_1.logger.log('ArrayBuffers', memoryUsageMin.arrayBuffers, memoryUsageMax.arrayBuffers, usage.arrayBuffers, usage.arrayBuffers - memoryUsageMin.arrayBuffers);
+        Logger_1.logger.log('External', memoryUsageMin.external, memoryUsageMax.external, usage.external, usage.external - memoryUsageMin.external);
+        Logger_1.logger.log('HeapTotal', memoryUsageMin.heapTotal, memoryUsageMax.heapTotal, usage.heapTotal, usage.heapTotal - memoryUsageMin.heapTotal);
+        Logger_1.logger.log('HeapUsed', memoryUsageMin.heapUsed, memoryUsageMax.heapUsed, usage.heapUsed, usage.heapUsed - memoryUsageMin.heapUsed);
+        Logger_1.logger.log('Rss', memoryUsageMin.rss, memoryUsageMax.rss, usage.rss, usage.rss - memoryUsageMin.rss);
+        //logger.info(process.cpuUsage(),process.memoryUsage());
     }, 10000);
 }

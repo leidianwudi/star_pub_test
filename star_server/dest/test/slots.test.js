@@ -51,7 +51,7 @@ describe("slots", () => {
             Constants_1.GameType.SLOTS_MJWAYS,
             Constants_1.GameType.SLOTS_MJWAYS2,
         ];
-        gameTypes = [Constants_1.GameType.SLOTS_ICEANDFIRE];
+        gameTypes = [Constants_1.GameType.SLOTS_SONGKRAN];
         for (let gameType of gameTypes) {
             let gameId = gameType;
             let client = await (0, room_1.createRoomClient)(gameType);
