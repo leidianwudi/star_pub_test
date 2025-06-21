@@ -2346,3 +2346,4 @@ System.register(['./_virtual_cc-44dbd775.js', './_commonjsHelpers-ac46539f.js'],
     })
   };
 }));
+//# sourceMappingURL=physx.release.wasm-9f5ec630.js.map

@@ -8,3 +8,4 @@ System.register([], (function (exports, module) {
 		})
 	};
 }));
+//# sourceMappingURL=physx.release.wasm-97254cdc.js.map

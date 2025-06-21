@@ -1,0 +1,91 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "main",
+    "deps": [
+        "internal"
+    ],
+    "uuids": [
+        "0927976d6",
+        "0dc7a929a",
+        "469e39c1-3bdc-4490-987b-99aaa169fdf4",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@6c48a",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "9e293cde-e27b-4902-808b-e884f3e9da32",
+        "a26825b6-fa35-4328-b69e-e4f2e463662d",
+        "ba21476f-2866-4f81-9c4d-6e359316e448",
+        "e3ac7a6d-7c70-4143-8de5-88164e08defa",
+        "e3ac7a6d-7c70-4143-8de5-88164e08defa@6c48a",
+        "e3ac7a6d-7c70-4143-8de5-88164e08defa@f9941",
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8"
+    ],
+    "paths": {
+        "a26825b6-fa35-4328-b69e-e4f2e463662d": [
+            "db:/assets/start/hotUpdate",
+            "cc.SceneAsset",
+            1
+        ],
+        "9e293cde-e27b-4902-808b-e884f3e9da32": [
+            "db:/assets/start/start",
+            "cc.SceneAsset",
+            1
+        ],
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8": [
+            "db:/internal/default_renderpipeline/builtin-forward",
+            "cc.RenderPipeline",
+            1
+        ],
+        "ba21476f-2866-4f81-9c4d-6e359316e448": [
+            "db:/internal/physics/default-physics-material",
+            "cc.PhysicsMaterial",
+            1
+        ]
+    },
+    "scenes": {
+        "db://assets/start/hotUpdate.scene": "a26825b6-fa35-4328-b69e-e4f2e463662d",
+        "db://assets/start/start.scene": "9e293cde-e27b-4902-808b-e884f3e9da32"
+    },
+    "packs": {
+        "0dc7a929a": [
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@6c48a",
+            "e3ac7a6d-7c70-4143-8de5-88164e08defa@6c48a"
+        ],
+        "0927976d6": [
+            "469e39c1-3bdc-4490-987b-99aaa169fdf4",
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+            "9e293cde-e27b-4902-808b-e884f3e9da32",
+            "e3ac7a6d-7c70-4143-8de5-88164e08defa@f9941"
+        ]
+    },
+    "versions": {
+        "import": [
+            "0927976d6",
+            "63d13",
+            "0dc7a929a",
+            "56b52",
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca",
+            "a2533",
+            "a26825b6-fa35-4328-b69e-e4f2e463662d",
+            "b7975",
+            "e3ac7a6d-7c70-4143-8de5-88164e08defa",
+            "c16a8",
+            "fd8ec536-a354-4a17-9c74-4f3883c378c8",
+            "731f4"
+        ],
+        "native": [
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca",
+            "cea68",
+            "e3ac7a6d-7c70-4143-8de5-88164e08defa",
+            "9315f"
+        ]
+    },
+    "redirect": [
+        "ba21476f-2866-4f81-9c4d-6e359316e448",
+        "0"
+    ],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

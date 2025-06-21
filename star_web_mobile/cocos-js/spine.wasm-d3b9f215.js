@@ -2146,3 +2146,4 @@ System.register(['./_virtual_cc-44dbd775.js'], (function (exports) {
     })
   };
 }));
+//# sourceMappingURL=spine.wasm-d3b9f215.js.map
